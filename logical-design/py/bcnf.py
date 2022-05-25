@@ -16,4 +16,6 @@ class ImplementMe:
     # decomposition or -1 if the relations are not a correct decomposition.
     @staticmethod
     def DecompositionSteps( relations, fds ):
+        for dep in fds.functional_dependencies:
+            dep.issubset()
         return -1
